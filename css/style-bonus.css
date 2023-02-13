@@ -1,6 +1,13 @@
 * {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  left: 25%;
+  right: 25%;
 }
 
 /*HEADER*/
@@ -12,7 +19,7 @@ header {
 }
 
 header img {
-  width: 260px;
+  width: 250px;
   padding-top: 100px;
   padding-left: 10px;
 }
