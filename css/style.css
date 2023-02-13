@@ -12,13 +12,40 @@ header {
   color: white;
 }
 
-/* TUTOR: RIDUZIONE MARGINI/PADDING & DECORAZIONE TESTO*/
+/* TUTOR: RIDUZIONE MARGINI/PADDING TRA I TITOLI & DECORAZIONE TESTO (ombra e contorno)*/
 
-header h4 {
+header h3 {
   padding-left: 30px;
   padding-top: 100px;
 }
 
 header h1 {
   padding-left: 10px;
+  font-size: 45px;
+}
+
+/*MAIN*/
+
+main {
+  padding-left: 10px;
+}
+
+.main-title {
+  padding-top: 20px;
+}
+
+.main-title h1 {
+  font-size: 40px;
+}
+
+.main-title p {
+  color: gray;
+}
+
+.main-title span {
+  color: #1EA7E4;
+}
+
+#publishing-date {
+  font-size: 12px;
 }
