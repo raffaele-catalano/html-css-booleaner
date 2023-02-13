@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*HEADER*/
@@ -12,7 +12,7 @@ header {
 }
 
 header img {
-  width: 260px;
+  width: 250px;
   padding-top: 100px;
   padding-left: 10px;
 }
@@ -20,6 +20,7 @@ header img {
 
 main,footer {
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 .main-title {
@@ -49,6 +50,7 @@ main,footer {
 
 .main-content {
   padding-top: 20px;
+  text-align: justify;
 }
 
 .main-content ul {
