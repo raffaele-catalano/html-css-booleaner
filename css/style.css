@@ -26,7 +26,7 @@ header h1 {
 
 /*MAIN*/
 
-main {
+main,footer {
   padding-left: 10px;
 }
 
@@ -79,4 +79,38 @@ main {
 
 .colored-row {
   background-color: #B1E5F2;
+}
+
+/*FOOTER*/
+
+footer {
+  padding-top: 30px;
+}
+
+footer h4 {
+  color: gray;
+}
+
+footer div {
+  width: 250px;
+  height: 150px;
+  margin-top: 20px;
+}
+
+footer div h3 {
+  padding-left: 10px;
+  padding-top: 10px;
+  color: white;
+}
+
+#first-suggest {
+  background-image: url(../img/monitor.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+#second-suggest {
+  background-image: url(../img/graph.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
