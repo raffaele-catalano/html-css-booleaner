@@ -9,21 +9,13 @@ header {
   height: 180px;
   background-color: #4EA0FF;
   background-image: url('../img/pattern.png');
-  color: white;
 }
 
-/* TUTOR: RIDUZIONE MARGINI/PADDING TRA I TITOLI & DECORAZIONE TESTO (ombra e contorno)*/
-
-header h3 {
-  padding-left: 30px;
+header img {
+  width: 250px;
   padding-top: 100px;
-}
-
-header h1 {
   padding-left: 10px;
-  font-size: 45px;
 }
-
 /*MAIN*/
 
 main,footer {
@@ -73,12 +65,16 @@ main,footer {
   color: white;
 }
 
-#main-last-paragraph {
-  padding-top: 20px;
-}
-
 .colored-row {
   background-color: #B1E5F2;
+}
+
+table > thead > tr > th {
+  width: 33%; 
+}
+
+#main-last-paragraph {
+  padding-top: 20px;
 }
 
 /*FOOTER*/
@@ -89,12 +85,13 @@ footer {
 
 footer h4 {
   color: gray;
+  padding-bottom: 5px;
 }
 
 footer div {
   width: 250px;
   height: 150px;
-  margin-top: 20px;
+  padding-top: 25px;
 }
 
 footer div h3 {
