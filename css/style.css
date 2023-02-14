@@ -67,7 +67,7 @@ main,footer {
 
 .main-content table {
   padding-top: 30px;
-  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .main-content table thead {
@@ -102,7 +102,7 @@ footer h4 {
 footer div {
   width: 250px;
   height: 150px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 footer div h3 {
@@ -111,16 +111,10 @@ footer div h3 {
   color: white;
 }
 
-#first-suggest {
-  background-image: url(../img/monitor.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-bottom: 10px;
-
+#monitor {
+  background-image: url('../img/monitor.jpg');
 }
-#second-suggest {
-  background-image: url(../img/graph.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-bottom: 10px;
+
+#graph {
+  background-image: url('../img/graph.jpg');
 }
