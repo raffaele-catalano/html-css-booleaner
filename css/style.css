@@ -1,9 +1,12 @@
+/*GENERAL*/
+
 * {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
 }
 
 /*HEADER*/
+
 header {
   width: 100%;                      
   background-color: #4EA0FF;
@@ -15,6 +18,7 @@ header img {
   padding-top: 100px;
   padding-left: 15px;
 }
+
 /*MAIN*/
 
 main,footer {
@@ -71,8 +75,8 @@ main,footer {
   background-color: #B1E5F2;
 }
 
-table > thead > tr > th {
-  width: 33%; 
+table .larger-text {
+  width: 50%;
 }
 
 #main-last-paragraph {
